@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risa's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        
+        <section id="title" class="section title-screen">
+            <div class="title-content-wrapper">
+                <h1 class="main-title"><span class="pink-text">R</span>isa's<br><span class="pink-text">P</span>ortfolio</h1>
+                <div class="nav-container">
+                    <nav class="window menu-window">
+                        <ul id="menu-list">
+                            <li class="menu-item active" data-target="profile"><span class="cursor">▶</span>Profile</li>
+                            <li class="menu-item" data-target="works"><span class="cursor"></span>Works</li>
+                            <li class="menu-item" data-target="achievements"><span class="cursor"></span>Achievements</li>
+                            <li class="menu-item" data-target="contact"><span class="cursor"></span>Contact</li>
+                        </ul>
+                    </nav>
+                    <div class="window guide-window">
+                        <div class="guide-text">
+                            <p>アクセスする記録を<br>選んでください。</p>
+                            <p class="guide-sub">上下キーで選択/Enterで決定<br>クリック、スクロールでも遷移できます</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="section">
+            <div class="window section-header"><h2><span class="pink-text">P</span>rofile</h2></div>
+            <div class="profile-main-layout">
+                <div class="profile-item char-area">
+                    <div class="char-frame"><img src="img/ChatGPT Image 2025年12月28日 18_13_43.png" alt="Profile Character" class="char-img"></div>
+                </div>
+                <div class="profile-item skill-area">
+                    <div class="window skill-window">
+                        <h3 class="pink-text">>Skills in Learning</h3>
+                        <ul class="skill-list">
+                            <li>Python</li><li>HTML</li><li>CSS</li><li>JavaScript</li>
+                        </ul>
+                        <p class="etc">etc.</p>
+                    </div>
+                </div>
+                <div class="profile-item info-area">
+                    <div class="window">
+                        <h3 class="pink-text">>Basic Info</h3>
+                        <p>がっこう: 東洋大学情報連携学部3学年</p>
+                        <p>がくせきID: 1F10240018</p>
+                        <p>なまえ: 榎本梨沙 / Risa Enomoto</p>
+                        <p>かもく: UX/ビジネス構築</p>
+                    </div>
+                    <div class="window">
+                        <h3 class="pink-text">>Activity Log</h3>
+                        <p>2005.09 - 東京生まれ</p>
+                        <p>2024.03 - 都立上野高等学校卒業</p>
+                        <p>2024.04 - 東洋大学情報連携学部入学</p>
+
+                    </div>
+                    <div class="window note-window">
+                        <h3 class="pink-text">>Profile Note</h3>
+
+                        <p>
+                            世界観や演出を活かし、
+                            使う人が楽しめる体験を設計することが好きです。
+                        </p>
+
+                        <p>
+                            デザインを考える際は、
+                            「この画面を見たときに利用者はどのような感情を抱くのか」を意識し、
+                            見た目だけでなく体験全体を設計することを大切にしています。
+                        </p>
+
+                        <p>
+                            ユーザーが自然に没入し、
+                            印象に残る体験を生み出せるデザイナーを目指しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="section">
+            <div class="window section-header">
+                <h2><span class="pink-text">W</span>orks</h2>
+            </div>
+
+            <!-- WORK 01 -->
+            <div class="window work-item">
+
+                <!-- 常に見える部分 -->
+                <div class="work-preview">
+
+                    <div class="video-main-container">
+                        <video controls width="100%">
+                            <source src="img/240018_RisaEnomoto_UXvideo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <p class="work-meta">
+                        2025.05 ユーザエクスペリエンス演習Ⅰ課題
+                    </p>
+
+                    <h3 class="work-main-title">
+                        「自然のおとによるノイズキャンセリングアプリ」提案
+                    </h3>
+
+                </div>
+
+                <!-- ボタン -->
+                <div class="work-toggle">
+                    詳細を見る ▼
+                </div>
+
+                <!-- 開閉部分 -->
+                <div class="work-content">
+
+                    <div class="work-content">
+
+                        <hr class="work-divider">
+
+                        <div class="work-text-block">
+                            <p class="pink-text">course_</p>
+                            <p>
+                                ユーザエクスペリエンス演習Ⅰ
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">production_</p>
+                            <p>
+                                個人制作
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">deliverable_</p>
+                            <p>
+                                コンセプト提案動画
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">overview_</p>
+                            <p>
+                                「都市部に住む人々が日常生活の中で自然を感じられる体験」をテーマに、
+                                現時点で実現可能なIT技術を活用したユーザ体験を設計し、
+                                その体験を紹介するコンセプト動画を制作した。
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">problem_</p>
+                            <p>
+                                都市部では騒音や人工的な環境に囲まれて生活することが多く、
+                                日常の中で自然を感じる機会が限られていることを課題として設定した。
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">solution_</p>
+                            <p>
+                                自然音を活用したノイズキャンセリングサービスを提案した。
+                                水の流れる音や虫の声などをイヤホンやスピーカーから再生し、
+                                周囲の雑音を軽減することで、都市部にいながら自然の中にいるような
+                                感覚を生み出すことを目的としている。
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">experience_</p>
+                            <p>
+                                電車や街中など騒音の多い環境を利用シーンとして設定し、
+                                移動中や日常生活の中で気軽に自然を感じられる体験を目指した。
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">design_</p>
+                            <p>
+                                あらかじめ録音した音源ではなく、リアルタイムに収録された自然音を
+                                配信する設定とすることで、より高い没入感や臨場感を得られるよう工夫した。
+                            </p>
+                        </div>
+
+                        <div class="work-text-block">
+                            <p class="pink-text">video_</p>
+                            <p>
+                                動画では、サービスを初めて知る人でも内容を理解しやすいよう、
+                                ずんだもん・四国めたんをナビゲーターとして活用した。
+                                また、ペルソナや利用シーン、利用前後の体験変化を可視化することで、
+                                サービスによって得られる価値が伝わりやすい構成とした。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            capcut<br>
+                            ChatGPT
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>             
+            <!-- WORK 02 -->
+            <div class="window work-item">
+
+                <div class="video-main-container">
+                    <video controls width="100%">
+                        <source src="img/240018_RisaEnomoto.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <p class="work-meta" style="margin-top:20px;">
+                    2025.07 ユーザエクスペリエンス演習Ⅰ課題
+                </p>
+
+                <h3 class="work-main-title">
+                    AIを活用した介護スマートホーム提案
+                </h3>
+
+                <div class="work-toggle">
+                    ▼ 詳細を見る
+                </div>
+
+                <div class="work-content">
+
+                    <hr class="work-divider">
+
+                    <div class="work-text-block">
+                        <p class="pink-text">course_</p>
+                        <p>
+                            ユーザエクスペリエンス演習Ⅰ
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">production_</p>
+                        <p>
+                            個人制作
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">deliverable_</p>
+                        <p>
+                            未来体験提案動画
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">overview_</p>
+                        <p>
+                            「2040年に、環境変化に適応して暮らす人々のユーザ体験」をテーマに、
+                            15年後の社会課題を想定したサービスとユーザ体験を設計し、
+                            その体験を紹介するコンセプト動画を制作した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">problem_</p>
+                        <p>
+                            少子高齢化の進行による高齢者人口の増加と、
+                            介護人材不足によって生じる介護負担の増大を課題として設定した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">solution_</p>
+                        <p>
+                            課題解決策として、AIを活用した介護スマートホームを提案した。
+                            住宅内に設置されたセンサーが利用者の日常行動を記録し、
+                            AIが生活リズムや行動パターンを分析することで、
+                            感情や体調の変化を予測する。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">experience_</p>
+                        <p>
+                            利用者への声かけや家族への通知を通じて、
+                            高齢者が一人で暮らしていても見守られている安心感を提供する。
+                            また、転倒や急病などの異常を検知した際には、
+                            家族や救急機関へ自動で連絡することを想定した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">design_</p>
+                        <p>
+                            単なる監視システムではなく、
+                            「離れていてもつながっている感覚」を生み出し、
+                            高齢者本人と家族の双方が安心できる体験を目指した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">video_</p>
+                        <p>
+                            動画では、ずんだもんと四国めたんによる会話形式を採用し、
+                            サービスの仕組みや利用シーンを分かりやすく伝えられるよう構成した。
+                            また字幕を追加し、初めて視聴する人にも内容が伝わりやすい表現を意識した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            capcut<br>
+                            ChatGPT
+                        </p>
+                    </div>
+
+</div>
+            </div>
+
+            <!-- WORK 03 -->
+            <div class="window work-item">
+
+                <div class="slide-viewer">
+
+                    <button class="slide-btn prev">◀</button>
+
+                    <img id="work03-slide"
+                        src="img/work03-01.jpg"
+                        alt="slide">
+
+                    <button class="slide-btn next">▶</button>
+
+                </div>
+
+                <p class="work-meta" style="margin-top:20px;">
+                    2025.09 ユーザエクスペリエンス演習Ⅱ課題
+                </p>
+
+                <h3 class="work-main-title">
+                    クッキーパッケージデザイン
+                </h3>
+
+                <div class="work-toggle">
+                    ▼ 詳細を見る
+                </div>
+
+                <div class="work-content">
+
+                    <hr class="work-divider">
+
+                    <div class="work-text-block">
+                        <p class="pink-text">course_</p>
+                        <p>
+                            ユーザエクスペリエンス演習Ⅱ
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">production_</p>
+                        <p>
+                            個人制作
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">overview_</p>
+                        <p>
+                            大学授業「ユーザエクスペリエンス演習Ⅱ」にて制作した、
+                            架空のクッキー商品のパッケージデザイン。
+                            「人に渡す体験」をテーマに、
+                            手土産や差し入れとして使用されるシーンを想定して設計を行った。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">concept_</p>
+                        <p>
+                            袋を別途用意しなくても持ち運べる取っ手構造や、
+                            箱を展開してそのままディスプレイとして使用できる構造を取り入れ、
+                            配りやすさと利便性の両立を目指した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">communication_</p>
+                        <p>
+                            屋根部分の装飾にはクリップ機能を持たせ、
+                            「1人1つまで」「ご自由にどうぞ」といった
+                            軽いメッセージを添えられる仕様とした。
+                            職場や家庭など複数人で共有する場面で、
+                            渡す側の気遣いや想いが自然に伝わる
+                            コミュニケーションツールとして機能することを意識している。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">experience_</p>
+                        <p>
+                            食べ終わった後もクリップを日常生活の中で再利用できるよう設計し、
+                            一時的な包装ではなく、
+                            体験や記憶が手元に残るパッケージを目指した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">process_</p>
+                        <p>
+                            情報収集からコンセプト策定、スケッチ、
+                            デジタル制作まで一貫して行い、
+                            ユーザー視点での使いやすさと
+                            コミュニケーション体験の設計を重視して制作した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            IbisPaintX<br>
+                            PowerPoint（資料作成）<br>
+                            ChatGPT
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- WORK 04 -->
+            <div class="window work-item">
+
+                <div class="slide-viewer">
+
+                    <button class="slide-btn prev4">◀</button>
+
+                    <img id="work04-slide"
+                        src="img/work04/スライド1.png"
+                        alt="slide">
+
+                    <button class="slide-btn next4">▶</button>
+
+                </div>                
+
+                <p class="work-meta" style="margin-top:20px;">
+                    2025.11  ユーザエクスペリエンス演習Ⅱ課題
+                </p>
+
+                <h3 class="work-main-title">
+                    学生視点による学部紹介Webサイト
+                </h3>
+
+                <div class="work-toggle">
+                    ▼ 詳細を見る
+                </div>
+
+                <div class="work-content">
+
+                    <hr class="work-divider">
+
+                    <div class="work-text-block">
+                        <p class="pink-text">course_</p>
+                        <p>
+                            ユーザ・エクスペリエンス演習Ⅱ
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">production_</p>
+                        <p>
+                            個人制作
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">overview_</p>
+                        <p>
+                            学生生活を学生自身の視点から外部へ紹介することを目的とした
+                            Webサイトを制作した。
+                            課題条件として、HTML・CSS・JavaScriptを用いて構築し、
+                            OpenWeather APIを活用したUX設計を行うことが求められていた。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">concept_</p>
+                        <p>
+                            情報を一方的に閲覧するサイトではなく、
+                            「この学部で学ぶ体験そのもの」を感じられるサイトを目指した。
+                            学部の特徴であるITやプログラミングへの関心を反映し、
+                            画面全体をターミナルやハッキング画面をモチーフとした
+                            デザインで構成した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">interaction_</p>
+                        <p>
+                            ユーザーがボタンを押すと、
+                            コマンドを入力しているように文字が順番に表示される
+                            アニメーションを実装した。
+                            また、実際のキーボード入力だけで
+                            ハッキング作業をしているような演出が進行する仕組みを取り入れ、
+                            利用者が能動的に参加できる体験を設計した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">weather_</p>
+                        <p>
+                            OpenWeather APIを利用して現在の天候情報を取得し、
+                            入力完了後に遷移するページの内容を
+                            天候によって変化させた。
+                            単に天気を表示するのではなく、
+                            リアルタイムの環境情報をコンテンツの分岐に活用することで、
+                            利用者ごとに異なる体験を提供できるよう工夫した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">design_</p>
+                        <p>
+                            学部紹介という情報提供を目的としながらも、
+                            サイトを操作する過程そのものが
+                            学びの体験となることを意識して制作した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            HTML<br>
+                            CSS<br>
+                            JavaScript<br>
+                            OpenWeather API
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- WORK 05 -->
+            <div class="window work-item">
+
+                <div class="slide-viewer">
+
+                    <button class="slide-btn prev5">◀</button>
+
+                    <img id="work05-slide"
+                        src="img/work5/スライド1.png"
+                        alt="slide">
+
+                    <button class="slide-btn next5">▶</button>
+
+                </div>
+
+                <p class="work-meta" style="margin-top:20px;">
+                    2025.12  コンピュータサイエンス演習Ⅳ課題
+                </p>
+
+                <h3 class="work-main-title">
+                    大学掲示板型ARG（協力型謎解きWebアプリ）
+                </h3>
+
+                <div class="work-toggle">
+                    ▼ 詳細を見る
+                </div>
+
+                <div class="work-content">
+
+                    <hr class="work-divider">
+
+                    <div class="work-text-block">
+                        <p class="pink-text">production_</p>
+                        <p>
+                            グループ制作（4人）
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">role_</p>
+                        <p>
+                            企画発案 / UI設計 / 掲示板機能実装 /
+                            演出設計 / ユーザー導線設計
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">overview_</p>
+                        <p>
+                            大学の「学内限定掲示板」を舞台にした、
+                            3人協力型のオンラインARG（Alternate Reality Game）を制作した。
+                            プレイヤーは同じ掲示板を見ているように見えながら、
+                            それぞれ異なる情報を与えられ、
+                            会話や情報共有を通じて真相へたどり着く構造となっている。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">concept_</p>
+                        <p>
+                            「自分には見えていない情報が他人には見えている」
+                            という違和感を体験として設計し、
+                            オンライン上でも協力型謎解き特有の
+                            没入感を生み出すことを目指した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">planning_</p>
+                        <p>
+                            授業内で制作していた掲示板システムを発展させる形で、
+                            「協力型ARG」というコンセプトを提案した。
+                            使用技術に制約がある中でも、
+                            他グループと差別化できるテーマ性と体験設計を意識した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">implementation_</p>
+                        <p>
+                            Django ChannelsとWebSocketを利用し、
+                            投稿内容が参加者全員へリアルタイム共有される
+                            掲示板機能を実装した。
+                            ユーザーネーム表示、投稿番号、投稿日時表示、
+                            新規投稿を上部へ追加する挙動を設計し、
+                            匿名掲示板特有のリアリティを演出した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">interaction_</p>
+                        <p>
+                            特定ワード投稿時に最終ページURLが
+                            警告ポップアップのように表示される演出を実装し、
+                            URLコピー機能を付与することで、
+                            複数人での進行時にもスムーズに共有できるよう工夫した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">research_</p>
+                        <p>
+                            ARG進行中に外部サイト（Wikipedia）を利用する構造を取り入れ、
+                            ユーザーが自然に調査・検索へ移行できるよう
+                            検索ワード選定を行った。
+                            また、実在する出来事の資料を読んでいるような
+                            「調査依頼書」を制作し、導入体験を設計した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">theme_</p>
+                        <p>
+                            「麹町中学校内申書事件」をモチーフとし、
+                            評価・選別・記録といったテーマへ接続することで、
+                            エンターテインメント性だけでなく
+                            社会的テーマ性を持つARGとして構成した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            Python<br>
+                            Django<br>
+                            Django Channels<br>
+                            JavaScript<br>
+                            HTML / CSS<br>
+                            PostgreSQL<br>
+                            Redis<br>
+                            Render<br>
+                            WebSocket
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">site_</p>
+                        <p>
+                            <a href="https://iniando-arg.onrender.com"
+                            target="_blank"
+                            style="color: var(--accent);">
+                                サイトを見る ↗
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- WORK 06 -->
+            <div class="window work-item">
+
+                <div class="work-preview">
+
+                    <p class="work-meta" style="margin-top:20px;">
+                        2025.12 ユーザエクスペリエンス論D
+                    </p>
+
+                    <h3 class="work-main-title">
+                        ゲームUI風ポートフォリオサイト
+                    </h3>
+
+                </div>
+
+                <div class="work-toggle">
+                    ▼ 詳細を見る
+                </div>
+
+                <div class="work-content">
+
+                    <hr class="work-divider">
+
+                    <div class="work-text-block">
+                        <p class="pink-text">production_</p>
+                        <p>
+                            個人制作
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">purpose_</p>
+                        <p>
+                            自身の制作物や活動をまとめるだけでなく、
+                            閲覧者が楽しみながら作品を探索できる
+                            ポートフォリオサイトを目指して制作した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">concept_</p>
+                        <p>
+                            私らしさを表現するため、
+                            好きなRPGから着想を得て、
+                            ゲームのメニュー画面やセーブデータ画面を
+                            モチーフとしたデザインを採用した。
+                            「記録を閲覧する」というコンセプトのもと、
+                            作品を見る行為自体が体験となるよう設計している。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">interaction_</p>
+                        <p>
+                            キーボード操作による画面遷移や、
+                            スクロールアニメーション、
+                            スライド表示などを実装し、
+                            RPGを操作しているような体験を目指した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">design_</p>
+                        <p>
+                            デザインを考える際は、
+                            「この画面を見たときにユーザーは
+                            どのような感情を抱くのか」を意識し、
+                            世界観や演出を通じて自然に没入できる
+                            体験設計を大切にした。
+                            モノトーンを基調としながら
+                            アクセントカラーを取り入れることで、
+                            情報の見やすさとゲームらしい雰囲気の
+                            両立を図っている。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">responsive_</p>
+                        <p>
+                            PC・スマートフォンの双方で
+                            快適に閲覧できるようレスポンシブ対応を行い、
+                            デバイスを問わず世界観を楽しめるよう設計した。
+                        </p>
+                    </div>
+
+                    <div class="work-text-block">
+                        <p class="pink-text">tools_</p>
+                        <p>
+                            HTML<br>
+                            CSS<br>
+                            JavaScript<br>
+                            GitHub Pages<br>
+                            ChatGPT
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="achievements" class="section">
+            <div class="window section-header">
+                <h2><span class="pink-text">A</span>chievements</h2>
+            </div>
+
+            <div class="achievement-grid">
+
+                <!-- 実績①（画像あり） -->
+                <div class="achievement-item">
+                    <img src="img/6DA9C063-0C53-4AD6-B8CD-1733742A896E.jpg" alt="表彰写真">
+
+                    <div class="achievement-caption">
+                        <p class="caption-year">2025</p>
+                        <p class="caption-title">東洋大学 情報連携学部</p>
+                        <p class="caption-detail">
+                            学業成績最優秀者<br>
+                            (GPA4.2以上)
+                        </p>
+                    </div>
+                </div>
+
+            <!-- 必要ならこのブロックをコピペで増やす -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="window section-header">
+                <h2><span class="pink-text">C</span>ontact</h2>
+            </div>
+
+            <div class="window save-window">
+
+                <p class="save-title pink-text">> SAVE DATA</p>
+
+            <div class="save-guide">
+                ▶ MAIL：クリックでコピー
+                <br>
+                ▶ X ：クリックで移動
+            </div>
+
+                <div class="save-item copy-mail"
+                    data-mail="xie6379@gmail.com">
+
+                    <p class="save-label pink-text">MAIL_</p>
+                    <p class="save-value">xie6379@gmail.com</p>
+
+                </div>
+
+                <div class="save-item">
+                    <a href="https://x.com/kUs4b1_"
+                    target="_blank"
+                    class="save-link">
+
+                        <p class="save-label pink-text">X_</p>
+                        <p class="save-value">@kUs4b1_</p>
+
+                    </a>
+                </div>
+
+                <div class="contact-message">
+                    <p>Let's create something together.</p>
+                    <p>Feel free to connect.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="last-page" class="section last-screen">
+            <div class="last-page-divider"></div>
+            <div class="last-page-content">
+                <h2 class="last-text"><span class="pink-text">T</span>he Last Page.</h2>
+                <h2 class="last-text"><span class="pink-text">T</span>hanks for visiting.</h2>
+            </div>
+            <div class="last-page-divider"></div>
+        </section>
+    </div>
+
+    <div id="fixed-back-btn" class="back-to-top-fixed">
+        <span class="pink-text">B</span> BACK
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
